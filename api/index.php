@@ -44,5 +44,22 @@
     //Flight::route("GET /login", array('GoogleAuth', 'login'));
     //Flight::route("POST /logout", array('User', 'logout'));
 
+    //going to expand create to return all the different login methods
+    //magic email link used when not a google account
+    //database to add special sso options associated to specific urls passed to the login
+    //database table to check if email is allowed to access admin@ 
+    //if email is an @channel1media.com account; include a custom input box on the redirect page to allow login as any active account
+
+    //HOW IT WORKS
+    //On any backend add a Login with C1
+    //Link to login.channel1media.com?r={SITE_URL} //https://fsu.vipfanportal.com/booking/admin
+    //Successful login via login.channel1media.com will return to //https://fsu.vipfanportal.com/booking/admin/verify.php
+    //header will include 
+    //Add file; verify.php
+    //verify.php confirms authenticated request somehow? JWT?
+    //verify.php checks if the header login-channel1-email is a rep in the system and then proceeds to login them in
+    //time limit from login.channel1media.com should be really really small
+    //developer may need to customize verify.php for their custom site
+    //will create some templates for epitch; epitchlite; bookingsystem; (renewal/new sales reports maybe)
     Flight::start();     
 ?>

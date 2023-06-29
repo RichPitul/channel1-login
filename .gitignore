@@ -3,3 +3,4 @@ design/
 *.xlsx
 *.csv
 vendor/
+api/Config.php
