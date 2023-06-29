@@ -1,0 +1,15 @@
+{
+    "config": {
+        "platform": {
+            "php": "7.4.19"
+        }
+    },
+    "require": {
+        "mikecao/flight": "^2.0",
+        "chrisullyott/php-ssl-monitor": "^0.0.5",
+        "google/apiclient": "^2.14",
+        "aura/session": "^2.1",
+        "symfony/mailer": "^5.4",
+        "symfony/amazon-mailer": "^5.4"
+    }
+}
