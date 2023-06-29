@@ -7,8 +7,8 @@
     $_ENV['user'] = 'adminC1MS';
     $_ENV['password'] = 'zQAFS4hS5DBSxUVs';    
 
-    $_ENV['CLIENT_ID'] = '75560007509-bp3cj9en3f6qb00gkkkh3e7124g94fht.apps.googleusercontent.com';
-    $_ENV['CLIENT_SECRET'] = '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';    
+    $_ENV['CLIENT_ID'] = '';
+    $_ENV['CLIENT_SECRET'] = '';    
     
     $_ENV['REDIRECT_URI'] = 'https://login.channel1media.com/redirect';
     if($_SERVER['HTTP_ORIGIN'] ?? '' === 'http://localhost:5173') {
